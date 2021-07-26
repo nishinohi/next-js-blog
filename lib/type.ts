@@ -7,3 +7,9 @@ export interface PostContent {
   date: string
   title: string
 }
+
+export type DynamicPostProps = {
+  params: {
+    id: string
+  }
+}

@@ -3,8 +3,7 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
-import { PostData } from '../../lib/type'
-import { DynamicPostProps } from './type'
+import { DynamicPostProps, PostData } from '../../lib/type'
 import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }: { postData: PostData }): JSX.Element {

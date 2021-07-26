@@ -1,8 +1,7 @@
 import path from 'path'
 import fs from 'fs'
 import matter from 'gray-matter'
-import { PostContent, PostData } from './type'
-import { DynamicPostProps } from '../pages/posts/type'
+import { DynamicPostProps, PostContent, PostData } from './type'
 import remark from 'remark'
 import html from 'remark-html'
 
